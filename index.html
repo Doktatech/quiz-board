@@ -3,109 +3,144 @@
   <head>
     <meta charset="utf-8">
     <title>Quiz Board Webpage</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
     <div class="container">
-      <h1>HTML,CSS and Javascript Quiz</h1>
-    <div id="questions">
-      <form >
-        <div class="quiz">
-          <p>What is does the acronym <strong>HTML</strong> represent in web development?</p>
-            <div>
-              <input type="radio" name="HTML" value="" id="question1">
-              <label for="question1">Hyper Text Markup Language</label>
-            </div>
-            <div>
-              <input type="radio" name="HTML" value="" id="question1" >
-              <label for="question1">High Text Marked Language</label>
-            </div>
-            <div >
-              <input type="radio" name="HTML" value="" id="question1">
-              <label for="question1">HyperText Markup Language</label>
-            </div>
-            <div >
-              <input type="radio" name="HTML" value="" id="question1">
-              <label for="question1">Highly Texted Meta Lingua</label>
-            </div> </br > </br >
-          <p>What does the acronym <strong>DOM</strong> represent in web development?</p>
-            <div>
-              <input type="radio" name="DOM" value="" id="question2">
-              <label for="question2">Development Object Model</label>
-            </div>
-            <div>
-              <input type="radio" name="DOM" value="" id="question2">
-              <label for="question2">Document Object Model</label>
-            </div>
-            <div >
-              <input type="radio" name="DOM" value="" id="question2">
-              <label for="question2">Data Object Model</label>
-            </div>
-            <div >
-              <input type="radio" name="DOM" value="" id="question2">
-              <label for="question2">Development Orientation Model</label>
-            </div> </br > </br >
-          <p>In which of the following <em>HTML</em> elements do we put the Javascript?</p>
-            <div>
-              <input type="radio" name="Javascript" value="" id="question3">
-              <label for="question3">script</label>
+      <div class="row">
+        <div class="col-xs-6">
+          <h1>Description</h1>
+          <p>Lorem ipsum dolor sit amet, duo at prompta suscipit. No error propriae est. Vis perfecto evertitur ne, exerci audire complectitur et qui. Adhuc delicatissimi concludaturque cu vim, ne pri nullam laboramus. Te nec graece molestie apeirian.
+
+              An quidam aperiri officiis eam, ad alii nullam docendi nam. Per an iusto laudem temporibus, has primis theophrastus in, has ex delenit incorrupte. Est ut sint efficiendi, sed ea apeirian temporibus. Pro feugiat debitis gloriatur ne. Mel ne invenire scripserit. Omnis sapientem appellantur ea vix, doctus reprehendunt vel an, cum volumus praesent vituperata no. Essent vituperata quo ex, no aliquando persecuti abhorreant ius.
+
+              Legendos pertinax intellegat ea per. Primis invenire torquatos ea his, illum harum offendit quo ad. Cibo mazim bonorum nec in. Mei elit nemore facete ea, nonumy essent et sed. No per libris dicunt urbanitas. Ipsum legendos delicatissimi vis ei. Nec error deseruisse ut, vel omnium facilisi adolescens no, vide eligendi torquatos ex mel.
+
+              No vidit mollis quo. Qui te choro deseruisse, quo at nibh habeo ullum, eum ea case ubique. Elitr malorum aliquid ne ius, iriure salutandi sea ne. Per cibo affert admodum at. Dolore gubergren posidonium cu est, debet copiosae accommodare ut est.
+
+              Vis ex esse fuisset denique. Cum eu ipsum iuvaret, ridens noster qui ex. His an quodsi tritani. Wisi dolorem ea qui, sumo magna no sea. Te tollit malorum vis. Eirmod theophrastus no ius.
+
+              In eum volutpat persecuti, aliquam instructior sea id. Ne nec fastidii intellegat, te vix clita labores, ut viderer accusam delicata cum. Et iudico mediocrem persequeris nam. Iisque inimicus mediocritatem cu vis.
+
+              An cum case summo labitur, no vidisse ponderum qui. Pro sonet nullam molestie te, nostro vocibus ius id. No mei affert possim scripta. An natum nominavi vel, ne nec altera lucilius patrioque. Dicit discere honestatis no eos, at has eius oporteat tractatos.
+
+              Sed an essent legendos atomorum, ut dolore iriure reprehendunt sit. Decore temporibus at vim, ea hinc dissentiet mel, atqui falli copiosae ut sed. No pri liber dolor moderatius, ex verear laoreet qui, et essent aliquid aliquam ius. Mei ne graeco labitur, in eius consequat has. Primis facilisi electram nec ea, est rebum epicuri definiebas in.
+
+              Porro utamur vis ut, mundi nonumes erroribus in mea. Ut mutat porro vulputate sed. Ut dicit mundi contentiones pro. Nominavi scriptorem id usu, decore accusamus sea ei. Sit ad tale falli docendi, cu dicta placerat disputando eum. Nullam facete an ius, putant electram vix at. At eum ipsum dolore honestatis, vis vitae feugait an, his at integre aliquam voluptatum.
+
+              Ad eos sint praesent efficiantur, in usu ipsum timeam, sonet perfecto similique nam ei. Ut vis enim nibh definiebas, te nam molestie principes elaboraret, facilisis suavitate dissentiet eu sed. Et per perfecto tacimates, alterum copiosae contentiones nec ut. Ex eum augue salutatus, facete assueverit ea cum. Persius labitur cu nam, mea ne duis dicat rationibus.</p>
+        </div>
+        <div class="col-xs-6">
+          <h1>HTML,CSS and Javascript Quiz</h1>
+          <div id="questions">
+            <form >
+              <div class="quiz">
+                <p>What is does the acronym <strong>HTML</strong> represent in web development?</p>
+                  <div>
+                    <input type="radio" name="HTML" value="wrong" id="question1">
+                    <label for="question1">Hyper Text Markup Language</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="HTML" value="wrong" id="question1" >
+                    <label for="question1">High Text Marked Language</label>
+                  </div>
+                  <div >
+                    <input type="radio" name="HTML" value="correct" id="question1">
+                    <label for="question1">HyperText Markup Language</label>
+                  </div>
+                  <div >
+                    <input type="radio" name="HTML" value="wrong" id="question1">
+                    <label for="question1">Highly Texted Meta Lingua</label>
+                  </div> </br > </br >
+                <p>What does the acronym <strong>DOM</strong> represent in web development?</p>
+                  <div>
+                    <input type="radio" name="DOM" value="wrong" id="question2">
+                    <label for="question2">Development Object Model</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="DOM" value="correct" id="question2">
+                    <label for="question2">Document Object Model</label>
+                  </div>
+                  <div >
+                    <input type="radio" name="DOM" value="wrong" id="question2">
+                    <label for="question2">Data Object Model</label>
+                  </div>
+                  <div >
+                    <input type="radio" name="DOM" value="wrong" id="question2">
+                    <label for="question2">Development Orientation Model</label>
+                  </div> </br > </br >
+                <p>In which of the following <em>HTML</em> elements do we put the Javascript?</p>
+                  <div>
+                    <input type="radio" name="Javascript" value="correct" id="question3">
+                    <label for="question3">script</label>
+                    </div>
+                  <div>
+                    <input type="radio" name="Javascript" value="wrong" id="question3">
+                    <label for="question3">Javascript</label>
+                  </div>
+                  <div >
+                    <input type="radio" name="Javascript" value="wrong" id="question3">
+                    <label for="question3">jQuery</label>
+                  </div>
+                  <div >
+                    <input type="radio" name="Javascript" value="wrong" id="question3">
+                    <label for="question3">link</label>
+                  </div> </br > </br >
+                <p>What does <strong>CSS</strong> stand for as used in Website Development?</p>
+                  <div>
+                    <input type="radio" name="CSS" value="correct" id="question4">
+                    <label for="question4">Cascading Style Sheets</label>
+                    </div>
+                  <div>
+                  <div>
+                    <input type="radio" name="CSS" value="wrong" id="question4">
+                    <label for="question4">Cascading Style Scripts</label>
+                    </div>
+                  <div>
+                  <div>
+                    <input type="radio" name="CSS" value="wrong" id="question4">
+                    <label for="question4">Computer Style Scripts</label>
+                    </div>
+                  <div>
+                  <div>
+                    <input type="radio" name="CSS" value="wrong" id="question4">
+                    <label for="question4">Cascading Scripting Sheets</label>
+                  </div> </br > </br >
+                <p> Which of the following represent the correct way of writing a function?</p>
+                  <div >
+                    <input type="radio" name="Function" value="wrong"id="question5">
+                    <label for="question5">Function()</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="Function" value="wrong"id="question5">
+                    <label for="question5"> function{()</label>
+                  </div>
+                  <div>
+                    <input type="radio" name="Function" value="wrong"id="question5">
+                    <label for="question5"> function functionName(){}</label>
+                  </div>
+                  <div >
+                    <input type="radio" name="Function" value="correct"id="question5">
+                    <label for="question5">.function functionName(){}</label>
+                  </div> </br > </br >
+                <button type="button" onclick="completeQuiz();" name="button" > CHECK SCORE</button>
+
               </div>
-            <div>
-              <input type="radio" name="Javascript" value="" id="question3">
-              <label for="question3">Javascript</label>
-            </div>
-            <div >
-              <input type="radio" name="Javascript" value="" id="question3">
-              <label for="question3">jQuery</label>
-            </div>
-            <div >
-              <input type="radio" name="Javascript" value="" id="question3">
-              <label for="question3">link</label>
-            </div> </br > </br >
-          <p>What does <strong>CSS</strong> stand for as used in Website Development?</p>
-            <div>
-              <input type="radio" name="CSS" value="" id="question4">
-              <label for="question4">Cascading Style Sheets</label>
-              </div>
-            <div>
-            <div>
-              <input type="radio" name="CSS" value="" id="question4">
-              <label for="question4">Cascading Style Scripts</label>
-              </div>
-            <div>
-            <div>
-              <input type="radio" name="CSS" value="" id="question4">
-              <label for="question4">Computer Style Scripts</label>
-              </div>
-            <div>
-            <div>
-              <input type="radio" name="CSS" value="" id="question4">
-              <label for="question4">Cascading Scripting Sheets</label>
-            </div>
-          <p> Which of the following represent the correct way of writing a function?</p>
-            <div >
-              <input type="radio" name="Function" value=""id="question5">
-              <label for="question5">Function()</label>
-            </div>
-            <div>
-              <input type="radio" name="Function" value=""id="question5">
-              <label for="question5"> function{()</label>
-            </div>
-            <div>
-              <input type="radio" name="Function" value=""id="question5">
-              <label for="question5"> function functionName(){}</label>
-            </div>
-            <div >
-              <input type="radio" name="Function" value=""id="question5">
-              <label for="question5">.function functionName(){}</label>
-            </div>
-          <button type="button" name="button" background-color:green;> Check Score</button>
+
+            </form>
+
+          </div>
+          <div id="score-results">
+            <p>Your score is balallallallalalallallalal</p>
+          </div>
 
         </div>
 
-      </form>
 
-    </div>
-
+      </div>
 
     </div>
 
