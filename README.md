@@ -1,6 +1,5 @@
 # quiz-board
-#### This a web-page that helps my high-school computer club answer queries that will ultimately be graded and help them know if they understood HTML, CSS, Javascript.
- 15/02/2019
+#### This a web-page that helps my high-school computer club answer queries that will ultimately be graded and help them know if they understood HTML, CSS, Javascript. {15/02/2019}
 #### By **Doktatech**
 ## Description
 This is a simple quiz I prepared for my students that i have been teaching HTML,CSS and Javascript. The quiz aims at determining if a student has a clear grasp of the course content before proceeding with next lessons. Consequently, the quiz offers simple yet challenging questions with options to choose from.Thus the "quiz-board " will grade the students accordingly depending on how conversant they are will the content and let them know if they need to retake the course.  Please free free to add to this project and make it more visually appealing
@@ -29,6 +28,14 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.*
+Copyright (c) 2019 **Doktatech**
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
